@@ -1,0 +1,59 @@
+.logo img {
+  width: 120px;   /* adjust size */
+  height: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar {
+  padding: 15px 0;
+  background: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo h2 {
+  color: #2e2f5b;
+}
+
+/* Menu Center */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Button Right */
+.nav-btn .btn {
+  background: linear-gradient(90deg, #f4a940, #ff7e3f);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+body {
+    background-image: url("Images/Techsmed Logo.png");
+    backhground-position: center;
+    background-attachment: fixed;
+    /background-image: img/pexels-pixabay-459225.jpg;/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
